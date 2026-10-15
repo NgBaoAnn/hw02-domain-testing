@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+.superpowers/
+eshop-sut/backend/node_modules/
+eshop-sut/frontend-web/node_modules/
+eshop-sut/frontend-admin/node_modules/
+eshop-sut/frontend-mobile/node_modules/
+eshop-sut/backend/database.sqlite
