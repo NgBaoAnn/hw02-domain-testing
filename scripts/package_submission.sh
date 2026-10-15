@@ -19,13 +19,15 @@ echo "================================================================="
 echo "[1/5] Trích xuất nhật ký Git Commit (git_commit_log.txt)..."
 git log --pretty=format:"[%h] %ad - %s" --date=short > git_commit_log.txt
 
-# 2. Biên dịch các tệp Markdown bắt buộc sang PDF nếu có pandoc & xelatex
+# 2. Biên dịch REPORT.tex bằng xelatex và các tài liệu phụ trợ sang định dạng PDF
 echo "[2/5] Kiểm tra và biên dịch tài liệu sang định dạng PDF (theo Mục 14)..."
-if command -v pandoc >/dev/null 2>&1 && command -v xelatex >/dev/null 2>&1; then
-    echo "  - Đang xuất REPORT.pdf..."
-    pandoc REPORT.md -o REPORT.pdf --pdf-engine=xelatex \
-      -V geometry:margin=1in -V fontsize=10pt -V mainfont="Arial" || echo "  Warning: PDF export for REPORT.md fallback."
+if command -v xelatex >/dev/null 2>&1; then
+    echo "  - Đang biên dịch REPORT.pdf từ REPORT.tex bằng XeLaTeX..."
+    xelatex -interaction=nonstopmode REPORT.tex >/dev/null 2>&1 || true
+    xelatex -interaction=nonstopmode REPORT.tex >/dev/null 2>&1 || true
+fi
 
+if command -v pandoc >/dev/null 2>&1 && command -v xelatex >/dev/null 2>&1; then
     echo "  - Đang xuất reports/ai_audit_report.pdf..."
     pandoc reports/ai_audit_report.md -o reports/ai_audit_report.pdf --pdf-engine=xelatex \
       -V geometry:margin=1in -V fontsize=10pt -V mainfont="Arial" || echo "  Warning: PDF export for ai_audit_report.md fallback."
@@ -43,11 +45,12 @@ fi
 
 # 3. Tạo thư mục tạm để chuẩn bị các tệp nộp bài
 echo "[3/5] Chuẩn bị cấu trúc tệp nộp bài..."
-TMP_DIR="/tmp/submission_${STUDENT_ID}_$$"
+TMP_DIR="${TMPDIR:-/tmp}/submission_${STUDENT_ID}_$$"
 mkdir -p "$TMP_DIR"
 
 # Copy các tệp bắt buộc
 cp -v REPORT.md "$TMP_DIR/"
+cp -v REPORT.tex "$TMP_DIR/"
 [ -f REPORT.pdf ] && cp -v REPORT.pdf "$TMP_DIR/"
 cp -v README.md "$TMP_DIR/"
 cp -v git_commit_log.txt "$TMP_DIR/"
