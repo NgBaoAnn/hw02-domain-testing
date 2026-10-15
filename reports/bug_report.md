@@ -5,7 +5,7 @@
 
 - **Dự án:** EShop E-Commerce System
 - **Học phần:** Kiểm thử phần mềm nâng cao (Advanced Software Testing)
-- **Tác giả:** Nhóm Kiểm Thử Miền (Domain & Boundary Testing Team - Member 5)
+- **Tác giả:** Nguyễn Bảo An (Domain & Boundary Testing)
 - **Ngày lập:** 15/10/2026
 - **Trạng thái:** Confirmed & Verified with SUT Automated Test Suites
 - **Môi trường thử nghiệm chung:**

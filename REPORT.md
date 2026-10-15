@@ -7,8 +7,7 @@
 - **Môn học:** Kiểm thử phần mềm nâng cao (Advanced Software Testing / KCPM)
 - **Mã lớp:** CS423 / CSC15003 - FIT @ HCMUS
 - **Bài tập:** HW02 – Domain Testing on EShop
-- **Thành viên:** Thành viên 5 (Member 5)
-- **Họ và tên:** Nguyễn Bảo An *(Đại diện nhóm phân công Member 5)*
+- **Họ và tên:** Nguyễn Bảo An
 - **Mã số sinh viên (MSSV):** 23120005
 - **Ngày hoàn thành:** 15/10/2026
 - **Kho mã nguồn SUT:** [https://github.com/ttbhanh/eshop-sut](https://github.com/ttbhanh/eshop-sut)
@@ -59,7 +58,7 @@ Hệ thống Thương mại Điện tử EShop là một ứng dụng full-stack
 - **Web Admin Portal:** React 18, Vite, TailwindCSS (`frontend-admin/`).
 - **Mobile Client:** React Native (`frontend-mobile/App.js`).
 
-Theo bảng phân công nhóm (Mục 5 SRS & `group_feature_assignment.md`), **Thành viên 5** phụ trách 4 tính năng độc lập, đại diện cho đầy đủ 4 nhóm phân loại nghiệp vụ của hệ thống:
+Theo quy định tại Mục 5 của đề bài (mỗi sinh viên chọn 4 tính năng độc lập từ 4 pool khác nhau, bảo đảm không trùng lặp trong nhóm), bài tập này tập trung kiểm thử 4 tính năng sau:
 
 | Nhóm nghiệp vụ | Mã tính năng | Tên tính năng | Mã nguồn SUT liên quan |
 | :--- | :--- | :--- | :--- |

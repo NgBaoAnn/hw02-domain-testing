@@ -1,9 +1,9 @@
 # HW02 – Domain Testing trên Hệ Thống EShop
-## Báo Cáo Thực Hành Kiểm Thử Miền & Phân Tích Giá Trị Biên — Thành Viên 5
+## Báo Cáo Thực Hành Kiểm Thử Miền & Phân Tích Giá Trị Biên
 
 - **Môn học:** Kiểm thử phần mềm nâng cao (Advanced Software Testing / KCPM)
 - **Mã môn:** CS423 / CSC15003 — FIT @ HCMUS
-- **Học viên:** Nguyễn Bảo An *(Đại diện nhóm phân công Member 5)*
+- **Học viên:** Nguyễn Bảo An
 - **Mã số sinh viên (MSSV):** `23120005`
 - **Hệ thống SUT:** EShop E-Commerce System (`https://github.com/ttbhanh/eshop-sut`)
 - **Điểm tự đánh giá:** **100 / 100**

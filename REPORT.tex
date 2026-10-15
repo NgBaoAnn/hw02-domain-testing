@@ -1,8 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 
 \usepackage{fontspec}
-\setmainfont{Arial}
-\setmonofont{Courier New}
+% Using default LaTeX font (Latin Modern / Computer Modern)
 
 \usepackage[margin=1.8cm]{geometry}
 \usepackage{xcolor}
@@ -28,7 +27,7 @@
 % Header & Footer
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\textbf{HW02 – Domain Testing on EShop} (Thành viên 5)}
+\fancyhead[L]{\small\textbf{HW02 – Domain Testing on EShop}}
 \fancyhead[R]{\small\textsl{Khoa CNTT – ĐH Khoa Học Tự Nhiên, ĐHQG-HCM}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.5pt}
@@ -96,9 +95,8 @@
         \begin{tabular}{ll}
             \textbf{Môn học:} & Kiểm thử phần mềm nâng cao (CS423 / CSC15003) \\
             \textbf{Bài tập:} & HW02 – Domain Testing on EShop \\
-            \textbf{Nhóm / Vị trí:} & \textbf{Thành viên 5 (Member 5)} \\
-            \textbf{Họ và tên:} & \textbf{Nguyễn Bảo An} \\
-            \textbf{Mã số sinh viên:} & \textbf{23120005} \\
+            \textbf{Họ và tên học viên:} & \textbf{Nguyễn Bảo An} \\
+            \textbf{Mã số sinh viên (MSSV):} & \textbf{23120005} \\
             \textbf{Giảng viên \& TA:} & TS. Lâm Quang Vũ, TS. Trần Duy Hoàng, \\
                                        & ThS. Trần Thị Bích Hạnh, ThS. Trương Phước Lộc, \\
                                        & ThS. Hồ Tuấn Thanh \\
@@ -126,7 +124,7 @@ Hệ thống Thương mại Điện tử \textbf{EShop} là một ứng dụng w
     \item \textbf{Mobile Client:} React Native / Expo (\texttt{frontend-mobile/App.js}).
 \end{itemize}
 
-Theo sự phân công trong nhóm tại \texttt{group\_feature\_assignment.md} (tuân thủ quy định Mục 5 của đề bài: mỗi sinh viên chọn 4 tính năng độc lập từ 4 pool khác nhau, bảo đảm không trùng lặp), \textbf{Thành viên 5} chịu trách nhiệm kiểm thử 4 tính năng sau:
+Theo quy định tại Mục 5 của đề bài (mỗi sinh viên chọn 4 tính năng độc lập từ 4 nhóm nghiệp vụ khác nhau, bảo đảm không trùng lặp trong nhóm), bài tập này tập trung thiết kế và thực thi kiểm thử toàn diện trên 4 tính năng sau:
 
 \begin{table}[h]
 \centering
@@ -141,7 +139,7 @@ Theo sự phân công trong nhóm tại \texttt{group\_feature\_assignment.md} (
 \textbf{Pool D (Mobile App)} & \textbf{Mobile FR-10} & Hủy đơn hàng trên ứng dụng di động & \texttt{frontend-mobile/App.js} (\texttt{cancelOrder}) \\
 \bottomrule
 \end{tabularx}
-\caption{Bảng phân công tính năng của Thành viên 5}
+\caption{Bảng 4 tính năng được lựa chọn kiểm thử}
 \end{table}
 
 Mục tiêu cốt lõi của đợt kiểm thử này là áp dụng nghiêm ngặt các nguyên lý \textbf{Kiểm thử Miền (Domain Testing)} và \textbf{Phân tích Giá trị Biên (Boundary Value Analysis)} theo chuẩn công nghiệp ISTQB, kết hợp khai thác sức mạnh của AI Agent một cách có kỷ luật (Human-in-the-Loop) để rà quét triệt để các góc khuất, logic bẫy mã nguồn (seeded bugs), lỗi phân quyền (Broken Object Level Authorization - BOLA), và các bất cập về trải nghiệm người dùng (UX).

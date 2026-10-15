@@ -1,7 +1,7 @@
 #!/bin/bash
 # ==============================================================================
 # Script đóng gói hồ sơ nộp bài HW02 - Domain Testing
-# Tác giả: Thành viên 5 (MSSV: 23120005)
+# Tác giả: Nguyễn Bảo An (MSSV: 23120005)
 # Chuẩn đầu ra: <StudentID>_HW02_AI_DomainTesting_<Grade>.zip
 # ==============================================================================
 
