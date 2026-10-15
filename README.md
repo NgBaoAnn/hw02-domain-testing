@@ -4,10 +4,11 @@
 - **Môn học:** Kiểm thử phần mềm nâng cao (Advanced Software Testing / KCPM)
 - **Mã môn:** CS423 / CSC15003 — FIT @ HCMUS
 - **Học viên:** Nguyễn Bảo An
-- **Mã số sinh viên (MSSV):** `23120005`
+- **Mã số sinh viên (MSSV):** `23120207`
+- **Lớp:** `23CLC01`
 - **Hệ thống SUT:** EShop E-Commerce System (`https://github.com/ttbhanh/eshop-sut`)
 - **Điểm tự đánh giá:** **100 / 100**
-- **Quy cách đặt tên tệp nộp bài:** `23120005_HW02_AI_DomainTesting_100.zip`
+- **Quy cách đặt tên tệp nộp bài:** `23120207_HW02_AI_DomainTesting_100.zip`
 
 ---
 
@@ -103,8 +104,8 @@ node skills/domain-bva-generator/scripts/demo_skill.js
 ### 4.3 Tự động đóng gói hồ sơ nộp bài
 ```bash
 chmod +x scripts/package_submission.sh
-./scripts/package_submission.sh 23120005
-# Tạo ra tệp: 23120005_HW02_AI_DomainTesting_100.zip
+./scripts/package_submission.sh 23120207
+# Tạo ra tệp: 23120207_HW02_AI_DomainTesting_100.zip
 ```
 
 ---

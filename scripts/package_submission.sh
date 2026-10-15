@@ -7,7 +7,7 @@
 
 set -e
 
-STUDENT_ID=${1:-"23120005"}
+STUDENT_ID=${1:-"23120207"}
 GRADE=${2:-"100"}
 ZIP_NAME="${STUDENT_ID}_HW02_AI_DomainTesting_${GRADE}.zip"
 
@@ -35,6 +35,10 @@ if command -v pandoc >/dev/null 2>&1 && command -v xelatex >/dev/null 2>&1; then
     echo "  - Đang xuất reports/ai_critique.pdf..."
     pandoc reports/ai_critique.md -o reports/ai_critique.pdf --pdf-engine=xelatex \
       -V geometry:margin=1in -V fontsize=11pt -V mainfont="Arial" || echo "  Warning: PDF export for ai_critique.md fallback."
+
+    echo "  - Đang xuất reports/ai_disclosure_form.pdf..."
+    pandoc reports/ai_disclosure_form.md -o reports/ai_disclosure_form.pdf --pdf-engine=xelatex \
+      -V geometry:margin=1in -V fontsize=10pt -V mainfont="Arial" || echo "  Warning: PDF export for ai_disclosure_form.md fallback."
 
     echo "  - Đang xuất reports/bug_report.pdf..."
     pandoc reports/bug_report.md -o reports/bug_report.pdf --pdf-engine=xelatex \

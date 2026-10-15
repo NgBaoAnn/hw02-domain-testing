@@ -1,3 +1,4 @@
+[e8f10e4] 2026-10-15 - style(latex): simplify title page layout to classic academic standard
 [f064b40] 2026-10-15 - style(latex): switch to default LaTeX font and remove internal member identifiers
 [fec35cd] 2026-10-15 - docs(latex): build and compile REPORT.pdf using XeLaTeX template
 [4f385b6] 2026-10-15 - docs: finalize commit log and include compiled PDF reports

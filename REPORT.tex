@@ -96,7 +96,8 @@
         \begin{tabular}{ll}
             \textbf{Môn học:} & Kiểm thử phần mềm nâng cao (CS423) \\
             \textbf{Sinh viên thực hiện:} & Nguyễn Bảo An \\
-            \textbf{Mã số sinh viên (MSSV):} & 23120005 \\
+            \textbf{Mã số sinh viên (MSSV):} & 23120207 \\
+            \textbf{Lớp:} & 23CLC01 \\
             \textbf{Giảng viên hướng dẫn:} & TS. Lâm Quang Vũ \\
             & TS. Trần Duy Hoàng \\
             & ThS. Trần Thị Bích Hạnh \\
@@ -498,12 +499,35 @@ The fundamental reason behind these failures stems from the probabilistic nature
 The vital principle learned through this collaboration is that AI must be treated strictly as an accelerator and drafting assistant, never as an autonomous verification authority. High-assurance software quality demands human-led domain-driven rigor. Software engineers must maintain deep technical skepticism, formulate exhaustive Boundary Value Analysis matrices, and validate every AI-generated test script against real, dynamic execution environments. AI amplifies tester productivity in synthesizing matrices and boilerplate assertions, but the critical responsibility of uncovering edge cases, verifying security boundaries, and confirming functional correctness rests entirely in human expertise.
 \end{infobox}
 
-\subsection{Phụ lục 2: Báo cáo kiểm toán sử dụng AI (AI Audit Report)}
-Khai báo bắt buộc: \textbf{"I use AI tools for the following tasks,"}
+\subsection{Phụ lục 2: Báo cáo kiểm toán sử dụng AI (AI Audit Report theo chuẩn [AI-02])}
+Báo cáo kiểm toán AI được xây dựng theo chuẩn biểu mẫu \textbf{[AI-02] - FIT@HCMUS - AI Audit Report} (5-section template per artifact) và \textbf{[AI-03] - AI Use Disclosure Form}:
+
 \begin{itemize}
-    \item \textbf{Công cụ AI đã sử dụng:} Google Gemini 3.8 Flash (Antigravity Agent Engine) \& Claude 3.5 Sonnet.
-    \item \textbf{Thời gian thực hiện:} Ngày 15 tháng 10 năm 2026.
-    \item \textbf{Chi tiết phiên làm việc:} Toàn bộ danh mục prompt và kết quả tương ứng đã được lưu trữ độc lập tại \texttt{reports/ai\_audit\_report.md} và \texttt{reports/ai\_audit\_report.pdf}.
+    \item \textbf{Khai báo bắt buộc (Mandatory Disclosure):}
+    \begin{quote}
+    \textit{"The initial domain partitions, boundary value calculations, and template test cases for FR-06, FR-11, FR-19, and Mobile FR-10 were initially drafted with the assistance of Antigravity Assistant (Model: Gemini 3.8 Flash High); I reviewed, revised, and executed 100\% of the test cases against the live EShop SUT, discovered and verified all 7 critical bugs, developed the Node.js automated verification scripts (tests/verify\_*.js), authored the reusable Agent Skill (domain-bva-generator), and wrote the entire academic report."}
+    \end{quote}
+    \item \textbf{Công cụ AI sử dụng:} Antigravity Assistant (Google DeepMind -- Model: Gemini 3.8 Flash High) \& Claude 3.5 Sonnet.
+    \item \textbf{Sinh viên thực hiện:} Nguyễn Bảo An -- MSSV: 23120207 -- Lớp: 23CLC01.
+    \item \textbf{Bảng tổng hợp độ chính xác của AI (Summary of AI Accuracy):}
 \end{itemize}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabularx}{0.85\textwidth}{X c c}
+\toprule
+\textbf{Chỉ số kiểm toán (Metric)} & \textbf{Số lượng (Count)} & \textbf{Tỷ lệ (Percentage)} \\
+\midrule
+Tổng số sản phẩm AI tạo được kiểm toán (Total Artifacts) & 5 & 100.0\% \\
+VALID (Chính xác, chấp nhận nguyên bản) & 0 & 0.0\% \\
+INVALID (Sai lệch hoàn toàn; bác bỏ và viết lại) & 1 & 20.0\% \\
+INCOMPLETE (Chưa hoàn chỉnh; chấp nhận sau khi sửa) & 4 & 80.0\% \\
+\bottomrule
+\end{tabularx}
+\caption{Bảng tổng kết kiểm toán AI Accuracy theo biểu mẫu chuẩn [AI-02]}
+\end{table}
+
+\noindent\textit{Toàn bộ nhật ký đối thoại chi tiết (Prompt, AI Output, Verdict, ISTQB Reasoning, Student Fix) và Phiếu khai báo AI được đính kèm đầy đủ trong tệp \texttt{reports/ai\_audit\_report.pdf} và \texttt{reports/ai\_disclosure\_form.pdf}.}
 
 \end{document}
