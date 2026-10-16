@@ -1,3 +1,48 @@
+* commit 5081a0c15d70d57db0365b7265dfd1a96d310668
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Fri Oct 16 13:23:59 2026 +0700
+| 
+|     docs: complete homework materials and remove class identifiers
+| 
+|  .gitignore                                        |   7 ++-----
+|  .../[AI-01] - FIT@HCMUS - AI Agreement_En.docx    | Bin 0 -> 201411 bytes
+|  .../[AI-02] - FIT@HCMUS - AI Audit Report_En.docx | Bin 0 -> 35469 bytes
+|  ...I-03] - FIT@HCMUS - AI Disclosure Form_En.docx | Bin 0 -> 31581 bytes
+|  ... - FIT@HCMUS - AI Reflective Statement_En.docx | Bin 0 -> 30003 bytes
+|  ...05] - FIT@HCMUS - AI Privacy Checklist_En.docx | Bin 0 -> 29193 bytes
+|  ...FIT@HCMUS - AI Student Acknowledgement_En.docx | Bin 0 -> 29210 bytes
+|  .../[AI-01] - FIT@HCMUS - AI Agreement_En.docx    | Bin 0 -> 201411 bytes
+|  .../[AI-02] - FIT@HCMUS - AI Audit Report_En.docx | Bin 0 -> 32090 bytes
+|  ...I-03] - FIT@HCMUS - AI Disclosure Form_En.docx | Bin 0 -> 29770 bytes
+|  ... - FIT@HCMUS - AI Reflective Statement_En.docx | Bin 0 -> 30003 bytes
+|  ...05] - FIT@HCMUS - AI Privacy Checklist_En.docx | Bin 0 -> 28862 bytes
+|  ...FIT@HCMUS - AI Student Acknowledgement_En.docx | Bin 0 -> 28817 bytes
+|  README.md                                         |   1 -
+|  REPORT.md                                         |   1 -
+|  REPORT.pdf                                        | Bin 846502 -> 852981 bytes
+|  REPORT.tex                                        |   3 +--
+|  reports/ai_audit_report.md                        |   2 --
+|  reports/ai_audit_report.pdf                       | Bin 108987 -> 108910 bytes
+|  reports/ai_critique.pdf                           | Bin 23831 -> 23832 bytes
+|  reports/ai_disclosure_form.md                     |   1 -
+|  reports/ai_disclosure_form.pdf                    | Bin 92639 -> 92611 bytes
+|  reports/ai_privacy_checklist.md                   |   1 -
+|  reports/ai_privacy_checklist.pdf                  | Bin 77385 -> 77360 bytes
+|  reports/bug_report.pdf                            | Bin 155095 -> 155093 bytes
+|  25 files changed, 3 insertions(+), 13 deletions(-)
+| 
+* commit eb690031aa8858e19a72a39929c7d8b8947f61e7
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Fri Oct 16 13:20:01 2026 +0700
+| 
+|     docs(ai): add AI Privacy Checklist conforming to [AI-05] template
+| 
+|  git_commit_log.txt               |   9 +++++
+|  reports/ai_privacy_checklist.md  |  73 +++++++++++++++++++++++++++++++++++++
+|  reports/ai_privacy_checklist.pdf | Bin 0 -> 77385 bytes
+|  scripts/package_submission.sh    |   4 ++
+|  4 files changed, 86 insertions(+)
+| 
 * commit c785a76e572a9ca606ac74f93794a97340e57192
 | Author: NgBaoAnn <baoan1real1@gmail.com>
 | Date:   Fri Oct 16 13:15:24 2026 +0700
