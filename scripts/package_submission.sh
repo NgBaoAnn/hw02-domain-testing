@@ -40,6 +40,10 @@ if command -v pandoc >/dev/null 2>&1 && command -v xelatex >/dev/null 2>&1; then
     pandoc reports/ai_disclosure_form.md -o reports/ai_disclosure_form.pdf --pdf-engine=xelatex \
       -V geometry:margin=1in -V fontsize=10pt -V mainfont="Arial" || echo "  Warning: PDF export for ai_disclosure_form.md fallback."
 
+    echo "  - Đang xuất reports/ai_privacy_checklist.pdf..."
+    pandoc reports/ai_privacy_checklist.md -o reports/ai_privacy_checklist.pdf --pdf-engine=xelatex \
+      -V geometry:margin=1in -V fontsize=10pt -V mainfont="Arial" || echo "  Warning: PDF export for ai_privacy_checklist.md fallback."
+
     echo "  - Đang xuất reports/bug_report.pdf..."
     pandoc reports/bug_report.md -o reports/bug_report.pdf --pdf-engine=xelatex \
       -V geometry:margin=1in -V fontsize=10pt -V mainfont="Arial" || echo "  Warning: PDF export for bug_report.md fallback."
