@@ -18,7 +18,6 @@
 | :--- | :--- |
 | **Student name (printed):** | **NGUYỄN BẢO AN** |
 | **Student ID:** | **23120207** |
-| **Class / Cohort:** | **23CLC01** |
 | **Assignment ID:** | **HW02-AI** |
 | **Assignment Title:** | **HW02 – Domain Testing on EShop** |
 | **Assignment date:** | **15/10/2026** |
@@ -88,7 +87,6 @@ Through rigorous empirical auditing across four core testing domains on the ESho
 | :--- | :--- |
 | **Họ và tên sinh viên (in hoa):** | **NGUYỄN BẢO AN** |
 | **Mã số sinh viên (MSSV):** | **23120207** |
-| **Lớp / Khóa học:** | **23CLC01** |
 | **Môn học:** | **CS423 / CSC15003 -- Software Testing** |
 | **Giảng viên phụ trách:** | **TS. Lâm Quang Vũ / TS. Trần Duy Hoàng / ThS. Trần Thị Bích Hạnh / ThS. Trương Phước Lộc / ThS. Hồ Tuấn Thanh** |
 | **Ngày xác nhận:** | **15/10/2026** |

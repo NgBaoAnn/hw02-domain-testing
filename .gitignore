@@ -5,8 +5,5 @@ node_modules/
 *.log
 *.out
 *.toc
-eshop-sut/backend/node_modules/
-eshop-sut/frontend-web/node_modules/
-eshop-sut/frontend-admin/node_modules/
-eshop-sut/frontend-mobile/node_modules/
-eshop-sut/backend/database.sqlite
+eshop-sut/
+*.zip

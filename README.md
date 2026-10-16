@@ -5,7 +5,6 @@
 - **Mã môn:** CS423 / CSC15003 — FIT @ HCMUS
 - **Học viên:** Nguyễn Bảo An
 - **Mã số sinh viên (MSSV):** `23120207`
-- **Lớp:** `23CLC01`
 - **Hệ thống SUT:** EShop E-Commerce System (`https://github.com/ttbhanh/eshop-sut`)
 - **Điểm tự đánh giá:** **100 / 100**
 - **Quy cách đặt tên tệp nộp bài:** `23120207_HW02_AI_DomainTesting_100.zip`

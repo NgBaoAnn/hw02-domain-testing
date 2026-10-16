@@ -9,7 +9,6 @@
 - **Bài tập:** HW02 – Domain Testing on EShop
 - **Họ và tên:** Nguyễn Bảo An
 - **Mã số sinh viên (MSSV):** 23120207
-- **Lớp / Khóa:** 23CLC01
 - **Ngày hoàn thành:** 15/10/2026
 - **Kho mã nguồn SUT:** [https://github.com/ttbhanh/eshop-sut](https://github.com/ttbhanh/eshop-sut)
 - **Cấp độ Bloom-AI cam kết:** G9.2 (Áp dụng - Apply) & G9.3 (Phân tích - Analyse)

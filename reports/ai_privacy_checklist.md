@@ -54,7 +54,6 @@
 | :--- | :--- |
 | **Student name (printed):** | **NGUYỄN BẢO AN** |
 | **Student ID:** | **23120207** |
-| **Class / Cohort:** | **23CLC01** |
 | **Course:** | **CS423 / CSC15003 -- Software Testing** |
 | **Instructor:** | **Dr. Lam Quang Vu / Dr. Tran Duy Hoang / MSc. Tran Thi Bich Hanh / MSc. Truong Phuoc Loc / MSc. Ho Tuan Thanh** |
 | **Date:** | **15/10/2026** |
