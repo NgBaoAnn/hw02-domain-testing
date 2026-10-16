@@ -128,7 +128,7 @@ node skills/domain-bva-generator/scripts/generate_test_cases.js --input user_reg
 
 ## 5. End-to-End YouTube Demonstration Video Script
 
-- **Demo Video URL**: `https://youtu.be/DEMO_DOMAIN_BVA_SKILL_PLACEHOLDER` *(Replace with final link)*
+- **Demo Video URL**: [https://youtu.be/PCCCfeY-ux8](https://youtu.be/PCCCfeY-ux8)
 - **Target Duration**: ~3:30 - 4:00 minutes
 - **Resolution**: 1080p 60fps
 

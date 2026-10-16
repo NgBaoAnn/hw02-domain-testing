@@ -1,3 +1,44 @@
+* commit 0b540e2610d9127b78281dd11b154e72e713d801
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Fri Oct 16 13:38:05 2026 +0700
+| 
+|     feat(skills): register domain-bva-generator in .agents/skills for automatic agent discovery
+| 
+|  .agents/skills/domain-bva-generator/README.md     | 144 ++++++++
+|  .agents/skills/domain-bva-generator/SKILL.md      | 147 ++++++++
+|  .../prompts/bva_analysis_prompt.md                |  49 +++
+|  .../prompts/domain_analysis_prompt.md             |  50 +++
+|  .../scripts/generate_test_cases.js                | 387 ++++++++++++++++++++
+|  5 files changed, 777 insertions(+)
+| 
+* commit a847c91109a6607189ce84c0e87221ab1bfa570d
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Fri Oct 16 13:29:29 2026 +0700
+| 
+|     docs: update compiled supplementary PDF reports
+| 
+|  reports/ai_audit_report.pdf      | Bin 108910 -> 108910 bytes
+|  reports/ai_critique.pdf          | Bin 23832 -> 23833 bytes
+|  reports/ai_disclosure_form.pdf   | Bin 92611 -> 92603 bytes
+|  reports/ai_privacy_checklist.pdf | Bin 77360 -> 77360 bytes
+|  reports/bug_report.pdf           | Bin 155093 -> 156967 bytes
+|  5 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 5255e1bc0b0f9df45cbcecbf83ae9fe59687d8f8
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Fri Oct 16 13:28:38 2026 +0700
+| 
+|     docs: link public GitHub repo and GitHub Issues in reports
+| 
+|  README.md                       |   2 +
+|  REPORT.md                       |  16 +++
+|  REPORT.pdf                      | Bin 852981 -> 856795 bytes
+|  REPORT.tex                      |  27 ++++
+|  git_commit_log.txt              |   9 ++
+|  reports/bug_report.md           |  14 ++
+|  scripts/create_github_issues.js | 269 ++++++++++++++++++++++++++++++++++++++
+|  7 files changed, 337 insertions(+)
+| 
 * commit b8c1ef8216b2e9bb5e2e38a9fe9de870762bb77d
 | Author: NgBaoAnn <baoan1real1@gmail.com>
 | Date:   Fri Oct 16 13:24:04 2026 +0700

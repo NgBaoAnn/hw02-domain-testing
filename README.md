@@ -51,18 +51,16 @@ Dưới đây là bảng tổng hợp các chỉ số định lượng đo lư�
 
 ---
 
-## 3. Liên Kết Video Minh Họa (Demonstration Videos)
+## 3. Liên Kết Video Minh Họa (Demonstration Video)
 
-Theo quy định tại Mục 7 và Mục 14, toàn bộ quy trình sử dụng Agent Skill và thực thi kiểm thử được ghi hình và đăng tải công khai:
+Theo quy định tại Mục 7 và Mục 14, toàn bộ quy trình sử dụng Agent Skill để tự động hóa Domain Testing, Boundary Value Analysis và thực thi kiểm thử bắt lỗi trên hệ thống EShop SUT được ghi hình và đăng tải công khai:
 
-1. **Video 1 — Minh họa Agent Skill tự động sinh ca kiểm thử Miền & Biên:**
-   - **Liên kết YouTube:** [https://www.youtube.com/watch?v=HW02-MEMBER5-SKILL-DEMO](https://www.youtube.com/watch?v=HW02-MEMBER5-SKILL-DEMO)
-   - **Thời lượng:** 08:30
-   - **Nội dung:** Giới thiệu cấu trúc Skill `domain-bva-generator`, chạy kịch bản `demo_skill.js` tự động phân tích component, trích xuất biến đầu vào, xây dựng bảng ma trận BVA 2-point/3-point và xuất file test.
-2. **Video 2 — Minh họa Thực thi kiểm thử & Xác nhận lỗi trên SUT EShop:**
-   - **Liên kết YouTube:** [https://www.youtube.com/watch?v=HW02-MEMBER5-SUT-TESTING](https://www.youtube.com/watch?v=HW02-MEMBER5-SUT-TESTING)
-   - **Thời lượng:** 12:45
-   - **Nội dung:** Chạy các kịch bản kiểm thử tự động đối với 4 tính năng, tái hiện trực quan 7 lỗi phần mềm, kiểm tra lỗ hổng BOLA P0 và đối chiếu với tài liệu SRS.
+- **Liên kết YouTube:** [https://youtu.be/PCCCfeY-ux8](https://youtu.be/PCCCfeY-ux8)
+- **Nội dung video:**
+  1. Giới thiệu cấu trúc Agent Skill `domain-bva-generator` chuẩn ISTQB (phân hoạch tương đương, BVA 2-point/3-point, Single Fault Assumption).
+  2. Minh họa chạy thực tế CLI `generate_test_cases.js` tự động phân tích và sinh ma trận test case.
+  3. Thực thi kịch bản kiểm thử tự động trên SUT EShop, bắt trúng các lỗi phần mềm (BUG-01 nuốt click, BUG-02 số lượng âm, BUG-03 hủy đơn shipping, BUG-04 & BUG-05 BOLA).
+  4. Đối chiếu và quản lý bug trên GitHub Issues.
 
 ---
 

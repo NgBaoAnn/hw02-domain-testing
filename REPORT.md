@@ -345,8 +345,7 @@ Qua quá trình đồng hành cùng AI trong việc áp dụng Kỹ thuật Ki�
 - `scripts/demo_skill.js`: Kịch bản Node.js minh họa toàn diện (End-to-End) cách Agent tự động phân tích và sinh test suite cho bất kỳ tính năng nào.
 
 ### 9.2 Video minh họa vận hành End-to-End
-- **Video Demo Agent Skill:** [https://www.youtube.com/watch?v=HW02-MEMBER5-SKILL-DEMO](https://www.youtube.com/watch?v=HW02-MEMBER5-SKILL-DEMO)
-- **Video Demo Kiểm thử EShop SUT:** [https://www.youtube.com/watch?v=HW02-MEMBER5-SUT-TESTING](https://www.youtube.com/watch?v=HW02-MEMBER5-SUT-TESTING)
+- **Liên kết Video YouTube:** [https://youtu.be/PCCCfeY-ux8](https://youtu.be/PCCCfeY-ux8) (Video minh họa toàn diện quy trình sử dụng Agent Skill để tự động hóa Domain Testing, Boundary Value Analysis và thực thi kiểm thử bắt lỗi trên EShop SUT).
 
 ---
 
