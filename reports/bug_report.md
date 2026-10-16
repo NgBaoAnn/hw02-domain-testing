@@ -32,6 +32,20 @@
 | **BUG-06** | Web Admin thiếu hộp thoại xác nhận khi bấm xóa người dùng | FR-19: Quản lý người dùng | Medium (UX/Safety) | P2 - Medium | Confirmed | `frontend-admin/.../App.jsx:76-83` |
 | **BUG-07** | Màn hình đơn hàng trên Mobile App hủy đơn không có Alert xác nhận | Mobile FR-10: Đơn hàng | Medium (UX/Safety) | P2 - Medium | Confirmed | `frontend-mobile/App.js:312-329` |
 
+### Danh Sách Trực Tiếp GitHub Issues Của Từng Lỗi
+
+Toàn bộ 07 lỗi trên đã được đăng tải chính thức lên GitHub Issues của repository: [https://github.com/NgBaoAnn/hw02-domain-testing/issues](https://github.com/NgBaoAnn/hw02-domain-testing/issues)
+
+| Mã Bug | Trạng thái Issue | Tiêu đề Issue | Đường dẫn GitHub Issue |
+| :---: | :---: | :--- | :--- |
+| **BUG-01** | Open | [BUG-01] [FR-06] Nút "Thêm vào giỏ hàng" bị nuốt ở lần bấm đầu tiên (clickCount trap) | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/1](https://github.com/NgBaoAnn/hw02-domain-testing/issues/1) |
+| **BUG-02** | Open | [BUG-02] [FR-06] Ô nhập số lượng nhận số 0, số âm (-1) và NaN làm sai lệch giỏ hàng | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/2](https://github.com/NgBaoAnn/hw02-domain-testing/issues/2) |
+| **BUG-03** | Open | [BUG-03] [FR-11] Backend cho phép hủy đơn hàng đang ở trạng thái shipping | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/3](https://github.com/NgBaoAnn/hw02-domain-testing/issues/3) |
+| **BUG-04** | Open | [BUG-04] [FR-19] Admin có thể tự xóa chính tài khoản đang đăng nhập | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/4](https://github.com/NgBaoAnn/hw02-domain-testing/issues/4) |
+| **BUG-05** | Open | [BUG-05] [FR-19] Lỗ hổng bảo mật BOLA: Người dùng thường có thể gọi API xóa bất kỳ tài khoản nào | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/5](https://github.com/NgBaoAnn/hw02-domain-testing/issues/5) |
+| **BUG-06** | Open | [BUG-06] [FR-19] Web Admin thiếu hộp thoại xác nhận khi bấm Xóa tài khoản người dùng | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/6](https://github.com/NgBaoAnn/hw02-domain-testing/issues/6) |
+| **BUG-07** | Open | [BUG-07] [Mobile FR-10] Chức năng hủy đơn hàng trên Mobile App hủy tức thì không có Alert xác nhận | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/7](https://github.com/NgBaoAnn/hw02-domain-testing/issues/7) |
+
 ---
 
 ## 2. BÁO CÁO CHI TIẾT TỪNG LỖI (DETAILED BUG REPORTS)

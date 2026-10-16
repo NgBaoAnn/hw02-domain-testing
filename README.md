@@ -6,6 +6,8 @@
 - **Học viên:** Nguyễn Bảo An
 - **Mã số sinh viên (MSSV):** `23120207`
 - **Hệ thống SUT:** EShop E-Commerce System (`https://github.com/ttbhanh/eshop-sut`)
+- **Kho mã nguồn bài nộp (GitHub):** [https://github.com/NgBaoAnn/hw02-domain-testing](https://github.com/NgBaoAnn/hw02-domain-testing)
+- **Trang GitHub Issues theo dõi bug:** [https://github.com/NgBaoAnn/hw02-domain-testing/issues](https://github.com/NgBaoAnn/hw02-domain-testing/issues)
 - **Điểm tự đánh giá:** **100 / 100**
 - **Quy cách đặt tên tệp nộp bài:** `23120207_HW02_AI_DomainTesting_100.zip`
 

@@ -11,6 +11,8 @@
 - **Mã số sinh viên (MSSV):** 23120207
 - **Ngày hoàn thành:** 15/10/2026
 - **Kho mã nguồn SUT:** [https://github.com/ttbhanh/eshop-sut](https://github.com/ttbhanh/eshop-sut)
+- **Kho mã nguồn bài nộp (GitHub Repository):** [https://github.com/NgBaoAnn/hw02-domain-testing](https://github.com/NgBaoAnn/hw02-domain-testing)
+- **Trang GitHub Issues theo dõi lỗi:** [https://github.com/NgBaoAnn/hw02-domain-testing/issues](https://github.com/NgBaoAnn/hw02-domain-testing/issues)
 - **Cấp độ Bloom-AI cam kết:** G9.2 (Áp dụng - Apply) & G9.3 (Phân tích - Analyse)
 
 ---
@@ -302,6 +304,20 @@ Trong suốt quá trình thực thi kiểm thử, chúng tôi đã phát hiện 
 | 7 | **BUG-07** | Immediate destructive cancellation without confirmation dialog on Mobile | Mobile FR-10 | Medium (P2) | Đã xác nhận & Có script |
 
 *Toàn bộ các lỗi trên đã được ghi nhận chi tiết tại `reports/bug_report.md` cùng ảnh chụp màn hình minh chứng trong thư mục `screenshots/`.*
+
+### Danh Sách Liên Kết Trực Tiếp Tới GitHub Issues (Theo Mục 6.4 SRS)
+
+Tuân thủ quy định tại Mục 6.4 của đề bài, toàn bộ 07 lỗi phát hiện trên hệ thống SUT đã được đăng tải chính thức lên GitHub Issues của repository [https://github.com/NgBaoAnn/hw02-domain-testing/issues](https://github.com/NgBaoAnn/hw02-domain-testing/issues) kèm đầy đủ nhãn phân loại, phân tích mã nguồn và ảnh chụp minh chứng:
+
+| Mã Bug | GitHub Issue ID | Tiêu đề Issue trên GitHub | Đường dẫn trực tiếp |
+| :---: | :---: | :--- | :--- |
+| **BUG-01** | **Issue #1** | [BUG-01] [FR-06] Nút "Thêm vào giỏ hàng" bị nuốt ở lần bấm đầu tiên (clickCount trap) | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/1](https://github.com/NgBaoAnn/hw02-domain-testing/issues/1) |
+| **BUG-02** | **Issue #2** | [BUG-02] [FR-06] Ô nhập số lượng nhận số 0, số âm (-1) và NaN làm sai lệch giỏ hàng | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/2](https://github.com/NgBaoAnn/hw02-domain-testing/issues/2) |
+| **BUG-03** | **Issue #3** | [BUG-03] [FR-11] Backend cho phép hủy đơn hàng đang ở trạng thái shipping | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/3](https://github.com/NgBaoAnn/hw02-domain-testing/issues/3) |
+| **BUG-04** | **Issue #4** | [BUG-04] [FR-19] Admin có thể tự xóa chính tài khoản đang đăng nhập | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/4](https://github.com/NgBaoAnn/hw02-domain-testing/issues/4) |
+| **BUG-05** | **Issue #5** | [BUG-05] [FR-19] Lỗ hổng bảo mật BOLA: Người dùng thường có thể gọi API xóa bất kỳ tài khoản nào | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/5](https://github.com/NgBaoAnn/hw02-domain-testing/issues/5) |
+| **BUG-06** | **Issue #6** | [BUG-06] [FR-19] Web Admin thiếu hộp thoại xác nhận khi bấm Xóa tài khoản người dùng | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/6](https://github.com/NgBaoAnn/hw02-domain-testing/issues/6) |
+| **BUG-07** | **Issue #7** | [BUG-07] [Mobile FR-10] Chức năng hủy đơn hàng trên Mobile App hủy tức thì không có Alert xác nhận | [https://github.com/NgBaoAnn/hw02-domain-testing/issues/7](https://github.com/NgBaoAnn/hw02-domain-testing/issues/7) |
 
 ---
 
