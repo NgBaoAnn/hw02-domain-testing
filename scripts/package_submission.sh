@@ -15,9 +15,9 @@ echo "================================================================="
 echo "ĐÓNG GÓI HỒ SƠ NỘP BÀI HW02: $ZIP_NAME"
 echo "================================================================="
 
-# 1. Trích xuất git commit log mới nhất
-echo "[1/5] Trích xuất nhật ký Git Commit (git_commit_log.txt)..."
-git log --pretty=format:"[%h] %ad - %s" --date=short > git_commit_log.txt
+# 1. Trích xuất git commit log theo câu lệnh: git log --graph --all --stat
+echo "[1/5] Trích xuất nhật ký Git Commit (git log --graph --all --stat)..."
+git log --graph --all --stat > git_commit_log.txt
 
 # 2. Biên dịch REPORT.tex bằng xelatex và các tài liệu phụ trợ sang định dạng PDF
 echo "[2/5] Kiểm tra và biên dịch tài liệu sang định dạng PDF (theo Mục 14)..."

@@ -1,14 +1,187 @@
-[e8f10e4] 2026-10-15 - style(latex): simplify title page layout to classic academic standard
-[f064b40] 2026-10-15 - style(latex): switch to default LaTeX font and remove internal member identifiers
-[fec35cd] 2026-10-15 - docs(latex): build and compile REPORT.pdf using XeLaTeX template
-[4f385b6] 2026-10-15 - docs: finalize commit log and include compiled PDF reports
-[7f285bd] 2026-10-15 - chore: refresh git commit log in repo
-[5f748b8] 2026-10-15 - docs: finalize complete submission package for HW02 Domain Testing
-[b76e1e4] 2026-10-15 - docs(ai): complete AI Audit Report and AI Critique (200-300 words)
-[893c8ef] 2026-10-15 - feat(skill): create reusable Domain and BVA testing agent skill with demo script
-[b721275] 2026-10-15 - docs(bugs): create detailed bug report with reproduction steps and screenshots
-[ea4168d] 2026-10-15 - feat(testing): complete domain and bva test design for Mobile FR-10 Cancel Order
-[c40b22a] 2026-10-15 - feat(testing): complete domain and bva test design for FR-19 Admin User Management
-[102d66b] 2026-10-15 - feat(testing): complete domain and bva test design for FR-11 Order History
-[70ec1e7] 2026-10-15 - feat(testing): complete domain and bva test design for FR-06 Product Detail
-[b0c3f4d] 2026-10-15 - chore: initial commit with assignment requirements and implementation plan
+* commit a966b8b91d8f60c66178220a9a23e1aa0e5014cd
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 15:16:11 2026 +0700
+| 
+|     docs(ai): adapt AI Audit Report and AI Disclosure Form to official FIT@HCMUS templates
+| 
+|  README.md                      |   9 +-
+|  REPORT.md                      |   3 +-
+|  REPORT.tex                     |  36 ++++++--
+|  git_commit_log.txt             |   1 +
+|  reports/ai_audit_report.md     | 178 +++++++++++++++++----------------------
+|  reports/ai_audit_report.pdf    | Bin 79878 -> 108987 bytes
+|  reports/ai_critique.pdf        | Bin 23831 -> 23831 bytes
+|  reports/ai_disclosure_form.md  | 103 ++++++++++++++++++++++
+|  reports/ai_disclosure_form.pdf | Bin 0 -> 92639 bytes
+|  reports/bug_report.pdf         | Bin 155111 -> 155095 bytes
+|  scripts/package_submission.sh  |   6 +-
+|  11 files changed, 222 insertions(+), 114 deletions(-)
+| 
+* commit e8f10e4d36d4cddffb1cdef025246e57123029f2
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 15:06:45 2026 +0700
+| 
+|     style(latex): simplify title page layout to classic academic standard
+| 
+|  REPORT.pdf         | Bin 847710 -> 846502 bytes
+|  REPORT.tex         |  46 ++++++++++++++++++++++++----------------------
+|  git_commit_log.txt |   1 +
+|  3 files changed, 25 insertions(+), 22 deletions(-)
+| 
+* commit f064b40a2b90682bc45a3906e37dda87a700a53f
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:56:36 2026 +0700
+| 
+|     style(latex): switch to default LaTeX font and remove internal member identifiers
+| 
+|  README.md                     |   4 ++--
+|  REPORT.md                     |   5 ++---
+|  REPORT.pdf                    | Bin 915190 -> 847710 bytes
+|  REPORT.tex                    |  14 ++++++--------
+|  git_commit_log.txt            |   1 +
+|  reports/bug_report.md         |   2 +-
+|  scripts/package_submission.sh |   2 +-
+|  7 files changed, 13 insertions(+), 15 deletions(-)
+| 
+* commit fec35cd3b3cff9da34cc9d039e383bb96fffbb7c
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:45:28 2026 +0700
+| 
+|     docs(latex): build and compile REPORT.pdf using XeLaTeX template
+| 
+|  .gitignore                    |   4 +
+|  REPORT.pdf                    | Bin 144954 -> 915190 bytes
+|  REPORT.tex                    | 509 ++++++++++++++++++++++++++++++++++++++++
+|  git_commit_log.txt            |   1 +
+|  reports/ai_audit_report.pdf   | Bin 79872 -> 79878 bytes
+|  reports/ai_critique.pdf       | Bin 23832 -> 23831 bytes
+|  reports/bug_report.pdf        | Bin 155109 -> 155111 bytes
+|  scripts/package_submission.sh |  15 +-
+|  8 files changed, 523 insertions(+), 6 deletions(-)
+| 
+* commit 4f385b6e55177c3fcaa0a4d4a4152ae5f8f638c7
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:34:24 2026 +0700
+| 
+|     docs: finalize commit log and include compiled PDF reports
+| 
+|  REPORT.pdf                  | Bin 0 -> 144954 bytes
+|  git_commit_log.txt          |   1 +
+|  reports/ai_audit_report.pdf | Bin 0 -> 79872 bytes
+|  reports/ai_critique.pdf     | Bin 0 -> 23832 bytes
+|  reports/bug_report.pdf      | Bin 0 -> 155109 bytes
+|  5 files changed, 1 insertion(+)
+| 
+* commit 7f285bd767867640485a94ff1b8389bef035411c
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:30:20 2026 +0700
+| 
+|     chore: refresh git commit log in repo
+| 
+|  git_commit_log.txt | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 5f748b865321184409fda97345e26ca22368af51
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:29:55 2026 +0700
+| 
+|     docs: finalize complete submission package for HW02 Domain Testing
+| 
+|  README.md                     | 156 ++++++++++++++++++
+|  REPORT.md                     | 357 ++++++++++++++++++++++++++++++++++++++++
+|  git_commit_log.txt            |   8 +
+|  scripts/package_submission.sh |  94 +++++++++++
+|  4 files changed, 615 insertions(+)
+| 
+* commit b76e1e444e800f6eac5052fd96a192a45b391bf9
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:24:41 2026 +0700
+| 
+|     docs(ai): complete AI Audit Report and AI Critique (200-300 words)
+| 
+|  reports/ai_audit_report.md | 132 +++++++++++++++++++++++++++++++++++++++++++
+|  reports/ai_critique.md     |   5 ++
+|  2 files changed, 137 insertions(+)
+| 
+* commit 893c8efeeb78a39ce098f14e302e2310d67441b6
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:21:40 2026 +0700
+| 
+|     feat(skill): create reusable Domain and BVA testing agent skill with demo script
+| 
+|  skills/domain-bva-generator/README.md             | 144 ++++++++
+|  skills/domain-bva-generator/SKILL.md              | 147 ++++++++
+|  .../prompts/bva_analysis_prompt.md                |  49 +++
+|  .../prompts/domain_analysis_prompt.md             |  50 +++
+|  .../scripts/generate_test_cases.js                | 387 ++++++++++++++++++++
+|  5 files changed, 777 insertions(+)
+| 
+* commit b721275932301600901f4d54f7f95cfc613adbec
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:18:39 2026 +0700
+| 
+|     docs(bugs): create detailed bug report with reproduction steps and screenshots
+| 
+|  reports/bug_report.md                             | 567 ++++++++++++++
+|  screenshots/bug-01-fr06-first-click.png           | Bin 0 -> 177151 bytes
+|  screenshots/bug-02-fr06-negative-qty.png          | Bin 0 -> 173782 bytes
+|  screenshots/bug-03-fr11-cancel-shipping.png       | Bin 0 -> 211712 bytes
+|  screenshots/bug-04-fr19-admin-self-delete.png     | Bin 0 -> 162001 bytes
+|  .../bug-05-fr19-bola-unauthorized-delete.png      | Bin 0 -> 167083 bytes
+|  .../bug-06-fr19-missing-confirm-dialog.png        | Bin 0 -> 156331 bytes
+|  ...ug-07-mobile-fr10-unconfirmed-cancellation.png | Bin 0 -> 154222 bytes
+|  scripts/capture_bugs.js                           | 796 ++++++++++++++++++++
+|  9 files changed, 1363 insertions(+)
+| 
+* commit ea4168df960c1125994df4819a5b7737204d4c8c
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:11:56 2026 +0700
+| 
+|     feat(testing): complete domain and bva test design for Mobile FR-10 Cancel Order
+| 
+|  reports/feature-d-mobile-fr10-cancel-order.md | 291 +++++++++++++++++
+|  tests/verify_mobile_fr10.js                   | 412 ++++++++++++++++++++++++
+|  2 files changed, 703 insertions(+)
+| 
+* commit c40b22afd326cc51872cbf2916c1048e740367f6
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:07:40 2026 +0700
+| 
+|     feat(testing): complete domain and bva test design for FR-19 Admin User Management
+| 
+|  reports/feature-c-fr19-user-management.md | 335 ++++++++++++++++++++++++++++
+|  tests/verify_fr19.js                      | 279 +++++++++++++++++++++++
+|  2 files changed, 614 insertions(+)
+| 
+* commit 102d66bc470748d1235388ef0d802fca034da23f
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 14:03:40 2026 +0700
+| 
+|     feat(testing): complete domain and bva test design for FR-11 Order History
+| 
+|  reports/feature-b-fr11-order-history.md | 251 +++++++++++++++++++++
+|  tests/verify_fr11.js                    | 349 ++++++++++++++++++++++++++++++
+|  2 files changed, 600 insertions(+)
+| 
+* commit 70ec1e78c2405e72abb404604440da51bec9d204
+| Author: NgBaoAnn <baoan1real1@gmail.com>
+| Date:   Thu Oct 15 13:59:43 2026 +0700
+| 
+|     feat(testing): complete domain and bva test design for FR-06 Product Detail
+| 
+|  reports/feature-a-fr06-product-detail.md | 191 ++++++++++++++++++++++++
+|  tests/verify_fr06.js                     | 226 +++++++++++++++++++++++++++++
+|  2 files changed, 417 insertions(+)
+| 
+* commit b0c3f4d2f67f0b0e058912095ed05f1fd0e5cf58
+  Author: NgBaoAnn <baoan1real1@gmail.com>
+  Date:   Thu Oct 15 13:56:47 2026 +0700
+  
+      chore: initial commit with assignment requirements and implementation plan
+  
+   .gitignore                                        |   8 +
+   2026.HW02.Domain Testing_En.pdf                   | Bin 0 -> 403870 bytes
+   2026.HW02.Domain Testing_Vi.md                    | 204 +++++++++++++
+   .../2026-10-15-hw02-domain-testing-member-5.md    | 319 ++++++++++++++++++++
+   group_feature_assignment.md                       | 111 +++++++
+   5 files changed, 642 insertions(+)
